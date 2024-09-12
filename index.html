@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todolist</title>
+    <link rel="stylesheet"  href="style.css" >
+</head>
+<body>
+    <div class="container">
+        <h1>DO WORK </h1>
+        <p>plan it - do it</p>
+        <div class="add-day">
+            <input type="text" id="day-input" placeholder="Add a new Title">
+            <button onclick="addDay()">Title</button>
+        </div>
+        <div id="days-list">
+            <!-- Days will be added here dynamically -->
+        </div>
+        <div id="task-interface" style="display: none;">
+            <!-- Task interface for each day -->
+        </div>
+    </div>
+    <script src="script.js" ></script>
+</body>
+</html>
